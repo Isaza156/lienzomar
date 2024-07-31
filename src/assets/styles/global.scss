@@ -1,0 +1,47 @@
+body {
+  background-color: #fffff7;
+  font-style: italic;
+}
+
+.router-link-style {
+  text-decoration: none;
+  margin: 5px;
+  padding: 1px 5px;
+  color: black;
+  font-weight: bold;
+
+  &:hover {
+    border-radius: 3px;
+    color: #9218b0;
+  }
+}
+
+.title-nav {
+  color: #9218b0;
+  h2 {
+    margin: 0;
+  }
+}
+
+#navbarSupportedContent {
+  flex-grow: inherit;
+  ul {
+    margin-bottom: 0 !important;
+  }
+}
+
+.social-icon-style img {
+  width: 25px;
+  margin: 0px 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.footer-style {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
